@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Pod request access landing page</title>
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <a href="/"><img src="./assets/desktop/logo.svg" alt="Pod - Home"></a>
+
+    <picture class="main-img">
+      <source srcset="./assets/tablet/image-host.jpg" media="(max-width: 1080px)">
+      <img src="./assets/desktop/image-host.jpg" alt="man in headphones speaking into a recording studio mic">
+    </picture>
+
+    <div class="container">
+      <h1>Publish your podcasts <span>everywhere.</span></h1>
+      <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts,
+        Google Podcasts, Pocket Casts and more!</p>
+
+      <div class="socials">
+        <a href="#"><img src="./assets/desktop/spotify.svg" alt="Spotify"></a>
+        <a href="#"><img src="./assets/desktop/apple-podcast.svg" alt="Apple Podcast"></a>
+        <a href="#"><img src="./assets/desktop/google-podcasts.svg" alt="Google Podcasts"></a>
+        <a href="#"><img src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts"></a>
+      </div>
+
+      <form action="/" name="form">
+        <input class="email-input" type="text" name="email" placeholder="Email address">
+        <button class="green-btn" type="submit" name="submit">Request Access
+        </button>
+        <p class="small">Oops! Please check your email</p>
+      </form>
+    </div>
+    <img src="./assets/desktop/bg-pattern-dots.svg" alt="" class="dots">
+  </main>
+</body>
+
+</html>
